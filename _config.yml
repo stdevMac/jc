@@ -81,7 +81,7 @@ encoding: utf-8 # Make sure the encoding is right
 title: "Jornada Científica Estudiantil" # Site name or title, also used in jekyll-seo-tag
 
 # Site description and default description, also used in jekyll-seo-tag
-# url: "jc" # Site url, also used in jekyll-seo-tag
+url: "jc" # Site url, also used in jekyll-seo-tag
 repo: "https://github.com/stdevMac/jc"
 baseurl: "/jc"
 
@@ -92,7 +92,7 @@ error_mode: strict
 
 # 8. Site navigation
 navigation_header:
-  Home: jc/
+  Home: /
   About: jc/about/
 
 #site credits
