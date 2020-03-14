@@ -55,20 +55,20 @@ timezone: America/New_York # Timezone for blog posts and alike
 # 6. Site wide defaults
 defaults:
   - scope:
-      path: ""
+      path: "/jc"
       type: pages
     values:
       layout: page # Default layout
       image: "/assets/img/id-uh.png" # Default image for sharing
 
   - scope:
-      path: ""
+      path: "/jc"
       type: posts
     values:
       layout: post
 
   - scope:
-      path: ""
+      path: "/jc"
       type: tag
     values:
       layout: tag
