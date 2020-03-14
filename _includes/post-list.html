@@ -5,7 +5,7 @@
         {% if page.tags contains target %}
             <li class="item item--post">
                 <div class="typeset">
-                    <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
+                    <h4><a href="{{ page.url | relative_url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
                     {% include post-meta.html %}
                     <span><br/>{{ page.excerpt | truncatewords: 20 }}</span>
                 </div>
@@ -18,7 +18,7 @@
         {% for page in paginator.posts limit: site.paginate %}
             <li class="item item--post">
                 <div class="typeset">
-                    <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
+                    <h4><a href="{{ page.url | relative_url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
                     {% include post-meta.html %}
                     <span><br/>{{ page.excerpt | truncatewords: 20 }}</span>
                 </div>

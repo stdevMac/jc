@@ -92,8 +92,8 @@ error_mode: strict
 
 # 8. Site navigation
 navigation_header:
-  Home: /jc
-  About: /jc/about/
+  Home: /
+  About: /about/
 
 #site credits
 navigation_footer:
